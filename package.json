@@ -1,0 +1,30 @@
+{
+  "name": "supergulp",
+  "version": "1.0.0",
+  "description": "gulp-ejs project",
+  "main": "index.js",
+  "scripts": {
+    "dev": "gulp dev",
+    "build": "gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/kirahaa/gulp-ejs.git"
+  },
+  "keywords": [
+    "gulp-ejs"
+  ],
+  "author": "hayeong kim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kirahaa/gulp-ejs/issues"
+  },
+  "homepage": "https://github.com/kirahaa/gulp-ejs#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "ejs": "^3.1.6",
+    "gulp": "^4.0.2",
+    "gulp-ejs": "^5.1.0",
+    "gulp-rename": "^2.0.0"
+  }
+}
