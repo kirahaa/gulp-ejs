@@ -4,7 +4,7 @@ const rename = require("gulp-rename")
 
 gulp.task('gulpEjs', function() {
     return gulp
-        .src([ "./src/html/*", "!" + "./src/html/include/*" ])
+        .src([ "./src/html/*.html", "!" + "./src/html/include/*" ])
         .pipe(ejs({title: "gulp-ejs"}))
         .pipe(rename({extname: '.html'}))
         .pipe(gulp.dest('./dist/html'));
